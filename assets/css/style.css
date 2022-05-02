@@ -1,6 +1,6 @@
 @font-face {
     font-family: Metabunny-Font;
-    src: url('../font/custom-font-metabunny.otf');
+    src: url('../font/Mont-HeavyDEMO.otf');
 }
 
 @font-face {
@@ -9,8 +9,9 @@
 }
 
 body {
-    background-color: #f8f9fa;
+    background-color: #000000;
     color:#0d6efd;
+    /*background-image:linear-gradient( to right,#efa8e4,#f8e1f4,#6EDCD9);*/
 }
 
 .header_custom_background {
@@ -319,7 +320,7 @@ body {
     color:#0d6efd;
 }
 p{
-   color:#000000;
+   color:#FFFFFF;
 }
 
 h6{
