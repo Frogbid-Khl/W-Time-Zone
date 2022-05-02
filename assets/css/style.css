@@ -8,10 +8,19 @@
     src: url('../font/NotoSans-SemiBold.otf');
 }
 
+@font-face {
+    font-family: text-body;
+    src: url('../font/Medium.otf');
+}
+
 body {
     background-color: #000000;
     color:#0d6efd;
     /*background-image:linear-gradient( to right,#efa8e4,#f8e1f4,#6EDCD9);*/
+}
+
+p{
+    font-family: text-body;
 }
 
 .header_custom_background {
@@ -247,7 +256,7 @@ body {
 
 .custom-card-title{
     font-family: 'Metabunny-Font';
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 5px;
 }
 
