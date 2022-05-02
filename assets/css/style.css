@@ -19,7 +19,7 @@ body {
     height: 82px;
     position: fixed;
     top: 0;
-    background: url('../images/header/header_bg.png');
+    /*background: url('../images/header/header_bg.png');*/
     display: flex;
     flex-direction: column;
     z-index: 999;
@@ -37,7 +37,7 @@ body {
 
 .header_custom_background .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
     font-family: Metabunny-Font, 'SansSerif';
-    color: white;
+    color: #000000;
     letter-spacing: 5px;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .dropdown-item {
-    color: white;
+    color: black;
 }
 
 .dropdown-item:hover {
@@ -282,9 +282,11 @@ body {
 
 .nav-item .footer-link{
     font-family: Metabunny-Font;
-    color: #000000;
+    color: #ffffff;
     letter-spacing: 5px;
-    font-size: 25px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .nav-item .footer-link:hover{
@@ -340,4 +342,21 @@ h6{
 
 .content{
     color: #000000;
+}
+.navbar-toggler{
+    color: #0d6efd !important;
+    border-color: rgb(0, 0, 0) !important;
+}
+.dropdown-toggle{
+    color: black;
+}
+
+@media only screen and (max-width: 992px) {
+    #project{
+        margin-top: 30px;
+    }
+}
+
+.margin-header{
+    margin-top: 100px;
 }
