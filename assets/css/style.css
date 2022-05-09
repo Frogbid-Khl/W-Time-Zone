@@ -1,26 +1,50 @@
 @font-face {
     font-family: Metabunny-Font;
-    src: url('../font/Mont-HeavyDEMO.otf');
+    src: url('../font/LoveNature.otf');
 }
 
 @font-face {
     font-family: Noto-Sans;
-    src: url('../font/NotoSans-SemiBold.otf');
+    src: url('../font/LoveNature.otf');
 }
 
 @font-face {
     font-family: text-body;
-    src: url('../font/Medium.otf');
+    src: url('../font/LoveNature.otf');
 }
 
 body {
-    background-color: #000000;
+    /*background-color: #0b0c22;*/
     color:#0d6efd;
     /*background-image:linear-gradient( to right,#efa8e4,#f8e1f4,#6EDCD9);*/
 }
 
+
 p{
-    font-family: text-body;
+    font-family: text-body !important;
+    letter-spacing: 4px;
+    line-height: 35px;
+}
+h1{
+    font-family: Metabunny-Font !important;
+}
+h4{
+    font-family: Metabunny-Font;
+}
+
+h3{
+    font-family: Metabunny-Font;
+}
+
+h2{
+    font-family: Metabunny-Font;
+}
+
+strong{
+    font-family: Metabunny-Font !important;
+}
+.accordion-body{
+    font-family: text-body !important;
 }
 
 .header_custom_background {
@@ -35,8 +59,7 @@ p{
 }
 
 .custom_header_width {
-    margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
     padding: 25px 0;
     display: flex;
     width: 1440px;
@@ -47,7 +70,7 @@ p{
 .header_custom_background .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
     font-family: Metabunny-Font, 'SansSerif';
     color: #000000;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .nav-item:hover {
@@ -103,6 +126,7 @@ p{
 
 .connect-button {
     color: #fff;
+    font-family: 'Metabunny-Font';
     text-decoration: none;
     cursor: pointer;
     border-radius: 10px;
@@ -178,7 +202,7 @@ p{
 .content-header {
     font-family: 'Metabunny-Font';
     font-size: 45px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .content {
@@ -187,7 +211,7 @@ p{
 }
 
 .custom-content-width{
-    width: 60%;
+    width: 90%;
 }
 
 
@@ -338,7 +362,8 @@ h6{
     color:#000000;
 }
 .card-header{
-    color:#000000;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .accordion-button{
@@ -353,8 +378,10 @@ h6{
     color: #000000;
 }
 .navbar-toggler{
-    color: #0d6efd !important;
+    color: #0b0c22 !important;
     border-color: rgb(0, 0, 0) !important;
+    height: 60px;
+    width: 50px;
 }
 .dropdown-toggle{
     color: black;
@@ -362,7 +389,37 @@ h6{
 
 @media only screen and (max-width: 992px) {
     #project{
-        margin-top: 30px;
+        margin-top: 30px !important;
+    }
+    p{
+        font-size: 25px !important;
+    }
+    .card-header{
+        font-size: 30px;
+    }
+    .accordion-button{
+        font-size: 30px;
+    }
+    .accordion-body{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .navbar-nav .nav-link{
+        font-size: 40px;
+        margin-right: 50px !important;
+    }
+    .size{
+        font-size: 50px;
+        margin-right: 50px !important;
+    }
+    .connect-button{
+        margin-top: 25px;
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+        margin-bottom: 10px;
     }
 }
 

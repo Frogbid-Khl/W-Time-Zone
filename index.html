@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Time Zone - NFT</title>
-    <!--    <link rel="icon" type="image/png" href="assets/images/logo/favicon.png"/>-->
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/new.css"/>
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!-- Font awesome -->
@@ -22,12 +23,13 @@
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
 </head>
-<body>
+<body style="background: url(assets/images/banner/watch-bg.png) no-repeat fixed center;
+    background-size: cover;">
 <!-- Navbar -->
 <header class="header_custom_background" style="background-color: #ffffff; height: 107px;">
-    <nav class="navbar navbar-expand-lg navbar-light custom_header_width" style="background-color: #ffffff99;">
+    <nav class="navbar navbar-expand-lg navbar-light custom_header_width" style="background-color: #ffffff;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo/logo.png" style="width: 150px" alt=""/></a>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo.png" style="width: 150px" alt=""/></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -35,58 +37,44 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item" id="project">
+                    <li class="nav-item" id="project" style="margin: 0 11px;">
                         <a class="nav-link" href="#">
-                            PROJECT
+                            Project
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">GAMEFI</a>
+                    <li class="nav-item" style="margin: 0 11px;">
+                        <a class="nav-link" href="#">NFT</a>
                     </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-link" href="#">BUNNYVERSE</a>
-                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">STAKING</a>
+                    <li class="nav-item" style="margin: 0 11px;">
+                        <a class="nav-link" href="time.html">$TIME</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            FAQ
+                    <li class="nav-item" style="margin: 0 11px;">
+                        <a class="nav-link" href="metaverse.html">
+                            Metaverse
                         </a>
                     </li>
                 </ul>
-                <form class="d-flex">
+                <div class="d-flex" style="align-items: center; justify-content: center">
                     <span class="me-2 pt-2 ">
-                        <!--<a href="#" class="me-1" style="text-decoration: none">
-                            <img src="assets/images/icon/opensea.png" alt="" style="width: 20px"/>
-                        </a>-->
                         <a href="#" class="me-1" style="text-decoration: none">
-                    <i class="fa-brands fa-discord text-dark" style="margin-right:20px"></i>
+                    <i class="fa-brands fa-discord text-dark size" style="margin-right:20px"></i>
                 </a>
                 <a href="#" class="me-1" style="text-decoration: none">
-                    <i class="fa-brands fa-instagram text-dark" style="margin-right:20px"></i>
+                    <i class="fa-brands fa-instagram text-dark size" style="margin-right:20px"></i>
                 </a>
                 <a href="#" class="me-1" style="text-decoration: none">
-                    <i class="fa-brands fa-twitter text-dark" style="margin-right:20px"></i>
+                    <i class="fa-brands fa-twitter text-dark size" style="margin-right:20px"></i>
                 </a>
                 <a href="#" class="me-1" style="text-decoration: none">
-                  <i class="fa-brands fa-telegram text-dark" style="margin-right:20px"></i>
+                  <i class="fa-brands fa-telegram text-dark size" style="margin-right:20px"></i>
                 </a>
                     </span>
-                    <div class="dropdown me-2">
-                        <a class="btn language_button dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                           data-bs-toggle="dropdown" aria-expanded="false" style="color: #FFFFFF">
-                            English
-                        </a>
 
-                        <!--<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul><-->
-                    </div>
-                    <button class="btn header_button connect-button" type="submit">Connect</button>
-                </form>
+                </div>
+                <div class="d-flex" style="align-items: center; justify-content: center">
+                <button class="btn header_button connect-button" type="submit">Connect</button>
+                </div>
+
             </div>
         </div>
     </nav>
@@ -95,20 +83,10 @@
 <!-- Banner -->
 <section class="metabunny-banner">
     <div style="width: 100%;">
-        <!--<video preload="auto" autoplay="" loop="" playsinline="" webkit-playsinline="" x5-playsinline=""
-               style="width: 100%; height: 100%;">
-            <source src="assets/videos/bunny.mp4" type="video/mp4">
-            <source src="assets/videos/bunny.webm" type="video/webm">
-        </video>-->
         <img src="assets/images/bunnyverse/1.jpg" width="100%" height="780px"/>
         <img src="assets/images/banner/banner.png" alt="banner" class="banner_1">
-        <!--        <img src="assets/images/banner/banner_2.png" alt="overview" class="banner_2">-->
         <div class="banner-button">
             <button type="button" class="banner-button-1 connect-button ">mint</button>
-
-            <!-- <a href="#" target="_blank">
-                 <button type="button" class="banner-button-1 connect-button">Opensea </button>
-             </a> -->
         </div>
     </div>
 </section>
@@ -117,7 +95,7 @@
 <section class="container">
     <div class="row text-center">
         <div class="col-12">
-            <h1 class="content-header">PROJECT</h1>
+            <h1 class="content-header">The Time Zone PROJECT</h1>
         </div>
     </div>
     <div class="row mt-5">
@@ -157,131 +135,297 @@
 <section class="container custom-content-width">
     <div class="row text-center">
         <div class="col-12">
-            <h1 class="content-header margin-header mb-5">Why do we need a Metaverse? </h1>
-            <!--<p style="text-align:left">
-                Web2 VS Web3<br/>
-                Web2 example of a watch market place - Chrono24<br/>
-                Data: 497k watches in total listed.<br/>
-                500k users per day.<br/>
-                4000 transactions per month, 130 transaction per day.
-            </p>-->
+            <h1 class="content-header margin-header mb-5">Watch NFT Value </h1>
         </div>
     </div>
     <div class="row pt-5">
         <div class="col-12">
-
-            <h4>Pros</h4>
             <p>
-                <span class="badge bg-warning me-2">-</span>Can quickly browse through products for quick price checking
-                and
-                shopping
+                <img src="https://img.icons8.com/ios-glyphs/20/0d6efd/time--v1.png" class="mx-2">Get early bird access to the metaverse.
             </p>
             <p>
-                <span class="badge bg-warning me-2">-</span>Already existing with large user base
-            </p>
-
-            <h4>Cons </h4>
-            <p>
-                <span class="badge bg-warning me-2">-</span>no interaction/engagement
-            <p>
-                <span class="badge bg-warning me-2">-</span>no theme for shops
-            </p>
-            <p>
-                <span class="badge bg-warning me-2">-</span>centralized and transaction are not transparent
-            </p>
-
-            <h3 class="text-center">Web3</h3>
-            <h4>Pros</h4>
-            <p>
-                <span class="badge bg-warning me-2">-</span>Interaction & Activities Engagement
+                <img src="https://img.icons8.com/ios-glyphs/20/0d6efd/time--v1.png" class="mx-2">Get 1000 $TIME coin
             </p>
 
             <p>
-                <span class="badge bg-warning me-2">-</span>Shopping Experience
+                <img src="https://img.icons8.com/ios-glyphs/20/0d6efd/time--v1.png" class="mx-2">Have extra voting rights for the expansion of the TIME Zone metaverse
+            <p>
+                <img src="https://img.icons8.com/ios-glyphs/20/0d6efd/time--v1.png" class="mx-2">Have access to discounts of partnered watch brands
             </p>
             <p>
-                <span class="badge bg-warning me-2">-</span>Users interaction
+                <img src="https://img.icons8.com/ios-glyphs/20/0d6efd/time--v1.png" class="mx-2">Get passive income when others use its watch
             </p>
+
             <p>
-                <span class="badge bg-warning me-2">-</span>24/7 exhibitions and shops.
-            </p>
-            <p>
-                <span class="badge bg-warning me-2">-</span>Decentralize mechanism for marketplace with validators (DAO)
-            </p>
-            <p>
-                <span class="badge bg-warning me-2">-</span>ecosystem built for watch lovers by watch lovers.
-            </p>
-            <p>
-                <span class="badge bg-warning me-2">-</span>transparent transaction
-            </p>
-            <h4>Cons </h4>
-            <p>
-                <span class="badge bg-warning me-2">-</span>takes time to build, still early stage
-            </p>
-            <p>
-                <span class="badge bg-warning me-2">-</span>only cryptocurrency payment
-            </p>
-            <p>
-                <span class="badge bg-warning me-2">-</span>brand new business model
+                <img src="https://img.icons8.com/ios-glyphs/20/0d6efd/time--v1.png" class="mx-2">Rare watch Zone will grant an actual watch. Some can be exclusive
             </p>
         </div>
     </div>
 </section>
 
-<!-- Bunnyverse Section -->
-<section class="container custom-content-width mb-5 mt-5">
+<!-- Preview Section -->
+<section class="container-fluid">
     <div class="row text-center">
-        <div class="col-12" style="background-color: #0d6efd;">
-            <div class="btn-group" role="group" aria-label="Basic example">
-
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item active">
-                        <a class="nav-link active" href="#home" role="tab" aria-controls="home" data-bs-toggle="tab">
-                            <button type="button" class="content-button-1 nav-link-button">
-                                Time Zone
-                            </button>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#profile" role="tab" aria-controls="profile" data-bs-toggle="tab">
-                            <button type="button" class="content-button-1 nav-link-button">
-                                Gamefi
-                            </button>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#messages" role="tab" aria-controls="messages" data-bs-toggle="tab">
-                            <button type="button" class="content-button-1 nav-link-button">
-                                Staking
-                            </button>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#settings" role="tab" aria-controls="settings" data-bs-toggle="tab">
-                            <button type="button" class="content-button-1 nav-link-button">
-                                Metaclothes
-                            </button>
-                        </a>
-                    </li>
-                </ul>
+        <div class="col-12">
+            <h1 class="content-header pt-5">PREVIEW</h1>
+        </div>
+    </div>
+    <div class="row pt-5">
+        <div class="col-12">
+            <div class="carousel">
+                <div><img src="assets/images/Preview/002.png" alt=""></div>
+                <div><img src="assets/images/Preview/003.png" alt=""></div>
+                <div><img src="assets/images/Preview/004.png" alt=""></div>
+                <div><img src="assets/images/Preview/005.png" alt=""></div>
+                <div><img src="assets/images/Preview/Dy001.png" alt=""></div>
+                <div><img src="assets/images/Preview/002.png" alt=""></div>
             </div>
         </div>
     </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- Roadmap Section -->
+<section data-bs-version="5.1" class="features21 cid-sZOFiu1PKR" id="features22-48">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <div class="item mbr-flex">
+                    <div class="icon-box w-100">
+                        <span class="step-number mbr-fonts-style display-1"><h3 style="font-size: 50px;">Roadmap</h3></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="timeline2 cid-sZwLI4QbJZ" id="timeline2-35">
+    <div class="container">
+        <div class="timelines-container mt-4">
+            <div class="row timeline-element separline mb-5">
+                <div class="timeline-date-panel col-12 col-md-4">
+                    <div class="time-line-date-content">
+                        <h4 class="mbr-timeline-date mbr-fonts-style display-5"></h4>
+                    </div>
+                </div>
+                <span class="iconBackground"></span>
+                <div class="col-12 col-md-8">
+                    <div class="timeline-text-content">
+                        <h4 class="mbr-timeline-title mb-4 mbr-fonts-style display-1"><strong>2023 Q1 Metaverse
+                        </strong></h4>
+
+                        <p class="mbr-text mbr-fonts-style display-5">
+                            * Sellers can list and sell their second-hand or new watches privately on the metaverse
+                            <br/>
+                            * Buyer will pay $USDT to DAO.
+                            <br/>
+                            * Once the transaction is accepted, the Seller will send the watch through 3rd party logistics<br/>
+                            * Once the buyer receives the actual watch and five (5) validators confirm the item's legitimacy, the DAO will release the funds and approve the NFT transfer
+                            <br>
+                            * Seller will pay a certain amount of $TIME to DAO as the commission fee
+                            <br>
+                            * The DAO will also act as an auction house to allow bids on watches for buyers using the $TIME token
+                            <br>
+                            * The TIME Zone will act as a social platform for watch lovers to enjoy and show off their watch collection. Additionally, brand owners may also create their own watch collection and attract potential buyers
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-element separline mb-5">
+                <div class="timeline-date-panel col-12 col-md-4">
+                    <div class="time-line-date-content">
+                        <h4 class="mbr-timeline-date mbr-fonts-style display-5"></h4>
+                    </div>
+                </div>
+                <span class="iconBackground"></span>
+                <div class="col-12 col-md-8">
+                    <div class="timeline-text-content">
+                        <h4 class="mbr-timeline-title mb-4 mbr-fonts-style display-1"><strong> 2022 Q4 $TIME Coin</strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-5">
+                            * By this quarter, we will release our $TIME coin and its whitepaper. The whitepaper will cover the basics of our coin and its case of trading watches in the metaverse. It will also justify the renting/buying of lands for second-hand shop owners or other watch brands. Additionally, we can also offer rental places or a marketplace for individuals to sell their watches
+                            <br/>
+                            * People can buy and personalize their watches or sell them in the metaverse. The metaverse will also enable shops to utilize the $TIME coin to create watches to list on other shops in the metaverse
+                            <br/>
+                            * The governance coin of the watch will be $TIME, and it will give the owner voting rights for DAO. Using the coin, the owner can have the voting rights for coin usage, land usage, or the direction of the metaverse, among others
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-element separline mb-5">
+                <div class="timeline-date-panel col-12 col-md-4">
+                    <div class="time-line-date-content">
+                        <h4 class="mbr-timeline-date mbr-fonts-style display-5"></h4>
+                    </div>
+                </div>
+                <span class="iconBackground"></span>
+                <div class="col-12 col-md-8">
+                    <div class="timeline-text-content">
+                        <h4 class="mbr-timeline-title mb-4 mbr-fonts-style display-1"><strong>2022 Q3 NFTs</strong></h4>
+
+                        <p class="mbr-text mbr-fonts-style display-5">
+                            * The NFTs are expected to launch by August 2022
+                            <br/>
+                            * The hype around the product will be generated by social media influencers.
+                            <br/>
+                            * We will make watches for all of the NFTs.
+                            <br>
+                            * Starting at 10,000 pieces, the 3D watches are composed of different and popular watch brands.
+                            <br>
+                            * Different attributes of the watch include: shape, dial, movement, strap, crown, material, hands, background, lume, color, and function
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-element separline mb-5">
+                <div class="timeline-date-panel col-12 col-md-4">
+                    <div class="time-line-date-content">
+                        <h4 class="mbr-timeline-date mbr-fonts-style display-5"></h4>
+                    </div>
+                </div>
+                <span class="iconBackground"></span>
+                <div class="col-12 col-md-8">
+                    <div class="timeline-text-content">
+                        <h4 class="mbr-timeline-title mb-4 mbr-fonts-style display-1"><strong>2022 Q2 Marketing</strong><br><br></h4>
+
+                        <p class="mbr-text mbr-fonts-style display-5">
+                            * This project starts by promoting watch NFTs via social platforms such as Discord, Instagram, Twitter, or website.
+                            <br/>
+                            * People can mint and open a unique watch using NFTs that serve as watch zones. Zones could be a GMT master or a Richard Mille Watch. There will be no brand names on the watch itself.
+                            <br/>
+                            * NFT owners can be whitelisted for coin airdrops or participating in advance sales. If whitelisted, NFT owners may receive a physical watch from the brand
+                            <br/>
+                            * The price for a watch Zone NFT starts at 0.08 ETH or 0.1 ETH. We will only release 10,000 watches at the start.
+                            <br>
+                            * This project will promote two separate groups - watch lovers and NFT enthusiasts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Team Section -->
+<section class="container">
+    <div class="row text-center mb-5">
+        <div class="col-12">
+            <h1 class="content-header margin-header">Team</h1>
+        </div>
+    </div>
     <div class="row">
-        <div class="col-12 bg-dark mt-3 p-4">
+        <div class="col-lg-4 col-md-6">
+            <div class="card custom-card">
+                <div style="text-align: center;">
+                    <img src="assets/images/roadmap/1.png" class="roadmap-image" alt="..."/>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title text-center custom-card-title">Felix Lam <br> CEO</h5>
+                    <p class="card-text" style="color: #FFFFFF">
+                        - 10 Years in Vancouver, Canada. Graduated From S.F.U in Economics<br><br>
+                        - CEO of CoinShaker, an A.I. Algorithmic Trading System<br><br>
+                        - Director of The Thinkers, an digital content marketing agency<br><br>
+                        - Co-Founder of Phantoms, a luxury watch brand that started from Kickstarter
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div style="text-align: center;">
+                <img src="assets/images/roadmap/2.png" class="roadmap-image" alt="..."/>
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-center custom-card-title">Philip <br> CTO
+                </h5>
+                <p class="card-text" style="color: #FFFFFF">
+                    Experienced Tech background
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div style="text-align: center;">
+                <img src="assets/images/roadmap/3.png" class="roadmap-image" alt="..."/>
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-center custom-card-title">Serena<br>Marketing Director</h5>
+                <p class="card-text" style="color: #FFFFFF">
+                    Seasoned Marketing specialist
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Bunnyverse Section -->
+<section class="container custom-content-width mb-5 mt-5">
+    <div class="row text-center mb-5">
+        <div class="col-12">
+            <h1 class="content-header">What is Time Zone NFT?</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mt-3">
 
             <div class="tab-content">
                 <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <h5 class="text-white">
-                        Inside the Time Zone GameFi model, there will be Daily Missions; PVE
-                        (Players vs Enemies); PVP (Players vs Players), a rich selection of game
-                        modes. Players can play and earn at the same time. They will be
-                        rewarded CARROT token, NFT items, Time Zone NFT and more.
-                    </h5>
-                    <div class="text-center mt-3">
-                        <img src="assets/images/bunnyverse/2.jpg" class="img-fluid" style="width: 100%;
-                           ">
+                    <p class="text-white">
+                        The TIME Zone is an arena in which people can buy digital shops, called ZONE, and create experiences on top of them to share with other users. ZONE is a ERC20 utility token.</p><br><br><br>
 
+                        <h3>Watch NFT Value</h3><br>
+                        <p class="text-white">
+                        Each NFT will get early bird access to the metaverse.<br>
+                        Each NFT will get 1000 $TIME coin.<br>
+                        Each NFT will have extra voting rights for the expansion of the TIME Zone metaverse.<br>
+                        Each NFT will have access to discounts of partnered watch brands.<br>
+                        Each NFT will get passive income when others use its watch.<br>
+                        Rare watch Zone will grant an actual watch. Some can be exclusive.
+                        </p>
+                        <br><br><br>
+                        
+                        <h3>Community Building</h3><br>
+                        <p class="text-white">
+                        
+                        We are a group of watch enthusiasts who want a decentralized market place to
+                        trade/sell/buy/bid/flex watches.<br>
+                        We will offer tips and suggestions for those who are buying watches.<br>
+                        We will offer the community to talk with brand owners.<br>
+                        We will disclose the process of making watches.<br>
+                        We will offer KOLs on watch selections and newly released styles.<br>
+
+                        The TIME Zone DAO - Hybrid Centralized - Decentralized Model<br>
+                        Smart contracts will be implemented after the first launch of the NFT.<br>
+                        $TIME will be used to facilitate the transaction between buying and selling on The TIME
+                        Zone.<br>
+                        The DAO rewards those who help with the community.<br>
+                        The DAO grants voting rights to whoever holds more than 100,000 $TIME, a total of 1 billion of
+                        $TIME will be issued only.<br>
+                        Voting rights will be written later.<br>
+                        Validators will earn $TIME by validating the legitimacy </p>
+                        
+                    <div class="text-center mt-3">
+                        <img src="assets/images/bunnyverse/2.jpg" class="img-fluid" style="width: 100%;">
                     </div>
                 </div>
                 <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -319,179 +463,15 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
 
-<!-- Preview Section -->
-<section class="container-fluid">
-    <div class="row text-center">
-        <div class="col-12">
-            <h1 class="content-header pt-5">PREVIEW</h1>
-        </div>
-    </div>
-    <div class="row pt-5">
-        <div class="col-12">
-            <div class="carousel">
-                <div><img src="assets/images/Preview/002.png" alt=""></div>
-                <div><img src="assets/images/Preview/003.png" alt=""></div>
-                <div><img src="assets/images/Preview/004.png" alt=""></div>
-                <div><img src="assets/images/Preview/005.png" alt=""></div>
-                <div><img src="assets/images/Preview/Dy001.png" alt=""></div>
-                <div><img src="assets/images/Preview/002.png" alt=""></div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Roadmap Section -->
-<section class="container pt-5">
-    <div class="row text-center mb-5">
-        <div class="col-12">
-            <h1 class="content-header">Roadmap</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <div class="card mb-3">
-                <div class="card-header" style="color: #fff">
-                    Initial Launch (Presale 20th 4PM HKT, Public Launch 21st 4PM HKT)
-                </div>
-                <div class="card-body">
-                    <p class="card-text" style="color: #000000">
-                        Time Zone NFT was born in Hong Kong, the first 1,000 pieces
-                        were sold out immediately in the 1st round of Presale.
-                        After the success in Hong Kong, Time Zone NFT has now
-                        expanded its reach to the US, Thailand, and other nations.
-                        Many celebrities and collectors have shown keen interests in
-                        the Time Zone project. We want to create a strong community
-                        filled with fun and games. Our NFT acts as a membership to our
-                        community where we will have regular game nights, contests and
-                        events with lucrative prizes and raffles. The giveaways will
-                        be handed out based on the scoreboard and will be reset monthly.
-                        The design of every traits of each Time Zone had gone over many
-                        discussions before the finalising. We want to make sure every
-                        Time Zone will be unique with some being cute and others being
-                        scary. Each Time Zone will be classified by their Scary Meter
-                        on deciding which type it will be.
-                    </p>
-                </div>
-            </div>
-            <div class="card mb-3">
-                <div class="card-header" style="color: #fff">
-                    Initial Launch (Presale 20th 4PM HKT, Public Launch 21st 4PM HKT)
-                </div>
-                <div class="card-body">
-                    <p class="card-text" style="color: #000000">
-                        Time Zone NFT was born in Hong Kong, the first 1,000 pieces
-                        were sold out immediately in the 1st round of Presale.
-                        After the success in Hong Kong, Time Zone NFT has now
-                        expanded its reach to the US, Thailand, and other nations.
-                        Many celebrities and collectors have shown keen interests in
-                        the Time Zone project. We want to create a strong community
-                        filled with fun and games. Our NFT acts as a membership to our
-                        community where we will have regular game nights, contests and
-                        events with lucrative prizes and raffles. The giveaways will
-                        be handed out based on the scoreboard and will be reset monthly.
-                        The design of every traits of each Time Zone had gone over many
-                        discussions before the finalising. We want to make sure every
-                        Time Zone will be unique with some being cute and others being
-                        scary. Each Time Zone will be classified by their Scary Meter
-                        on deciding which type it will be.
-                    </p>
-                </div>
-            </div>
-            <div class="card mb-3">
-                <div class="card-header" style="color: #fff">
-                    Initial Launch (Presale 20th 4PM HKT, Public Launch 21st 4PM HKT)
-                </div>
-                <div class="card-body">
-                    <p class="card-text" style="color: #000000">
-                        Time Zone NFT was born in Hong Kong, the first 1,000 pieces
-                        were sold out immediately in the 1st round of Presale.
-                        After the success in Hong Kong, Time Zone NFT has now
-                        expanded its reach to the US, Thailand, and other nations.
-                        Many celebrities and collectors have shown keen interests in
-                        the Time Zone project. We want to create a strong community
-                        filled with fun and games. Our NFT acts as a membership to our
-                        community where we will have regular game nights, contests and
-                        events with lucrative prizes and raffles. The giveaways will
-                        be handed out based on the scoreboard and will be reset monthly.
-                        The design of every traits of each Time Zone had gone over many
-                        discussions before the finalising. We want to make sure every
-                        Time Zone will be unique with some being cute and others being
-                        scary. Each Time Zone will be classified by their Scary Meter
-                        on deciding which type it will be.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Team Section -->
-<section class="container pt-5">
-    <div class="row text-center mb-5">
-        <div class="col-12">
-            <h1 class="content-header">Team</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-4 col-md-6">
-            <div class="card custom-card">
-                <div style="text-align: center;">
-                    <img src="assets/images/roadmap/1.png" class="roadmap-image" alt="..."/>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title text-center custom-card-title">Felix Lam <br> CEO</h5>
-                    <p class="card-text" style="color: #FFFFFF">
-                        - 10 Years in Vancouver, Canada. Graduated From S.F.U in Economics<br>
-                        - CEO of CoinShaker, an A.I. Algorithmic Trading System<br>
-                        - Director of The Thinkers, an digital content marketing agency<br>
-                        - Co-Founder of Phantoms, a luxury watch brand that started from Kickstarter
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div style="text-align: center;">
-                <img src="assets/images/roadmap/2.png" class="roadmap-image" alt="..."/>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title text-center custom-card-title">Philip <br> CTO
-                </h5>
-                <p class="card-text" style="color: #FFFFFF">
-                    A serial entrepreneur who has the courage to put
-                    his dreams into practice., an expert in search
-                    engine optimization with more than 18 years of
-                    experience in the internet technology industry.
-                    The founder & CEO of Hong Kong Digital Asset
-                    Exchange HKD.com
-                </p>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div style="text-align: center;">
-                <img src="assets/images/roadmap/3.png" class="roadmap-image" alt="..."/>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title text-center custom-card-title">Serena<br>Marketing Director</h5>
-                <p class="card-text" style="color: #FFFFFF">
-                    A serial entrepreneur who has the courage to put
-                    his dreams into practice., an expert in search
-                    engine optimization with more than 18 years of
-                    experience in the internet technology industry.
-                    The founder & CEO of Hong Kong Digital Asset
-                    Exchange HKD.com
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Community Section -->
-<section class="container pt-5">
+<!-- <section class="container pt-5">
     <div class="row text-center mb-5">
         <div class="col-12">
             <h1 class="content-header">Community</h1>
@@ -522,9 +502,6 @@
                                 </p>
                                 <p class="card-text">
                                      <span class="me-2 pt-2">
-                                       <!-- <a href="#" class="me-1">
-                                            <img src="assets/images/icon/opensea.png" alt="" style="width: 20px"/>
-                                        </a>-->
                                         <a href="#" class="me-1">
                                             <i class="fa-brands fa-discord text-white"></i>
                                         </a>
@@ -546,10 +523,11 @@
             </center>
         </div>
     </div>
-</section>
+</section> -->
 
-<!-- FAQ Section -->
-<!--<section class="container pt-5">
+
+<!--FAQ Scetion-->
+<section class="container pt-5">
     <div class="row text-center mb-5">
         <div class="col-12">
             <h1 class="content-header">FAQ</h1>
@@ -561,87 +539,70 @@
                 <div class="accordion-item mb-3">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Accordion Item #1
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-family:Metabunny-font">
+                            How can I get a Watch NFT?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                          data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="color: #000000">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body" style="color: #000000; font-family: text-body;">
+                            In order to get a Watch NFT, all you need is a MetaMask wallet with some Ethereum in it, then you are good to go!
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item mb-3">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-family:Metabunny-font">
+                            Where can I get my Watch NFT?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                          data-bs-parent="#accordionExample">
-                        <div class="accordion-body"style="color: #000000">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
-                            the collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body"style="color: #000000; font-family: text-body;">
+                            
+                          You can get a TIME Zone through our website when our presale and public sale launches. After that, it will be available for purchase on Opensea for second hand purchases.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item mb-3">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Accordion Item #3
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-family:Metabunny-font">
+                            When can I get my Watch NFT?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                          data-bs-parent="#accordionExample">
-                        <div class="accordion-body"style="color: #000000">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body"style="color: #000000; font-family: text-body;">
+                            Stay tuned for updates on our Twitter, Official Website, Discord Channel for any news regarding to the launch time and our future plans!
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-family:Metabunny-font">
+                            What is an NFT?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                         data-bs-parent="#accordionExample">
+                        <div class="accordion-body"style="color: #000000; font-family: text-body;">
+                            A:Non-Fungible Token (NFT) is a unique and non-interchangeable unit of data on the blockchain stored on a digital ledger. Its purpose is to establish the proof of ownership of digital assets such as jpg, videos, gifs and more.
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>-->
+</section>
 
-<!-- Client Section -->
-<!--<section class="container-fluid pt-5 mt-3 pb-5" style="background-color: #000000">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <img src="assets/images/client/1.png" class="img-fluid" alt=""/>
-            </div>
-            <div class="col-lg-3">
-                <img src="assets/images/client/2.jpg" class="img-fluid" alt=""/>
-            </div>
-            <div class="col-lg-3">
-                <img src="assets/images/client/3.png" class="img-fluid" alt=""/>
-            </div>
-            <div class="col-lg-3">
-                <img src="assets/images/client/4.jpg" class="img-fluid" alt=""/>
-            </div>
-        </div>
-    </div>
-</section>-->
 
 <!-- Footer Section -->
-<footer class="text-muted pt-5">
+<footer class="text-muted pt-5 mt-5">
     <div class="container footer-container" style="text-align: center">
         <p class="float-end mb-1">
             <a href="#">
@@ -658,49 +619,33 @@
                     <a class="nav-link active footer-link" aria-current="page" href="#">Project</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link footer-link" href="#">Roadmap</a>
+                    <a class="nav-link footer-link" href="#">NFT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link footer-link" href="#">Team</a>
+                    <a class="nav-link footer-link" href="#">$Time</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link footer-link" href="#">Faq</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link footer-link" href="#">CI</a>
+                    <a class="nav-link footer-link" href="#">Metaverse</a>
                 </li>
             </ul>
         </div>
         <p>
             <span class="me-2 pt-2 ">
-                <!--<a href="#" class="me-1" style="text-decoration: none">
-                    <img src="assets/images/icon/opensea.png" alt="" style="width: 20px; margin-right: 20px "/>
-                </a>-->
                 <a href="#" class="me-1" style="text-decoration: none">
                             <i class="fa-brands fa-discord text-white"></i>
                         </a>
-                        <a href="#" class="me-1"style="text-decoration: none">
+                        <a href="#" class="me-1" style="text-decoration: none">
                             <i class="fa-brands fa-instagram text-white"></i>
                         </a>
-                        <a href="#" class="me-1"style="text-decoration: none">
+                        <a href="#" class="me-1" style="text-decoration: none">
                             <i class="fa-brands fa-twitter text-white"></i>
                         </a>
-                        <a href="#" class="me-1"style="text-decoration: none">
+                        <a href="#" class="me-1" style="text-decoration: none">
                           <i class="fa-brands fa-telegram text-white"></i>
                         </a>
             </span>
         </p>
-        <!-- <p class="text-white" style="font-size: 8px;width: 50%;text-align: left">
-             This product is not a financial product or any investment and
-             wealth management product. The design purpose of the product is not
-             for investment. Whether buying or selling this product, it is the buyer's
-             own decision and responsibility. The company cannot predict the future
-             price changes of the product. or control, if there is any price
-             fluctuation, it has nothing to do with the company.
-         </p> <!-->
     </div>
-
-    <!--    <img src="assets/images/footer/1.png" alt="bg" class="footer-bg">-->
 </footer>
 
 </body>
