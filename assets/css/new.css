@@ -3400,7 +3400,7 @@ a {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 2px solid #fc00ff;
+    border: 2px solid #ffffff;
     top: 30px;
     margin-left: -9px;
     padding: 0;
@@ -3411,7 +3411,7 @@ a {
     position: absolute;
     content: "";
     width: 2px;
-    background-color: #fc00ff;
+    background-color: #ffffff;
     left: 5%;
     height: calc(100% + 30px);
 }
