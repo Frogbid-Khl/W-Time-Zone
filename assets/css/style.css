@@ -13,11 +13,44 @@
     src: url('../font/LoveNature.otf');
 }
 
-body {
-    /*background-color: #0b0c22;*/
+/*body {
+    !*background-color: #0b0c22;*!
     color:#0d6efd;
-    /*background-image:linear-gradient( to right,#efa8e4,#f8e1f4,#6EDCD9);*/
+    !*background-image:linear-gradient( to right,#efa8e4,#f8e1f4,#6EDCD9);*!
+    background: url(../images/banner/watch-bg.png);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+}*/
+
+body{
+    color:#0d6efd;
 }
+
+body:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url(../images/banner/watch-bg.png) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*@media only screen and (max-width: 992px) {
+    body {
+        background-attachment:scroll;
+    }
+}*/
 
 
 p{
@@ -59,10 +92,10 @@ strong{
 }
 
 .custom_header_width {
-    max-width: 100%;
+    /*max-width: 100%;*/
     padding: 25px 0;
     display: flex;
-    width: 1440px;
+    /*width: 1440px;*/
     justify-content: space-between;
     align-items: center;
 }
