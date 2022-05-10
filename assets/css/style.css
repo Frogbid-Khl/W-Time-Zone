@@ -92,10 +92,10 @@ strong{
 }
 
 .custom_header_width {
-    /*max-width: 100%;*/
+    max-width: 100%;
     padding: 25px 0;
     display: flex;
-    /*width: 1440px;*/
+    width: 1440px;
     justify-content: space-between;
     align-items: center;
 }
