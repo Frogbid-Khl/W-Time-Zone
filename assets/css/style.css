@@ -1,31 +1,17 @@
 @font-face {
     font-family: Metabunny-Font;
-    src: url('../font/LoveNature.otf');
+    src: url('../font/LibraryRecordsRegular.otf');
 }
 
 @font-face {
     font-family: Noto-Sans;
-    src: url('../font/LoveNature.otf');
+    src: url('../font/LibraryRecordsRegular.otf');
 }
 
 @font-face {
     font-family: text-body;
-    src: url('../font/LoveNature.otf');
+    src: url('../font/LibraryRecordsRegular.otf');
 }
-
-/*body {
-    !*background-color: #0b0c22;*!
-    color:#0d6efd;
-    !*background-image:linear-gradient( to right,#efa8e4,#f8e1f4,#6EDCD9);*!
-    background: url(../images/banner/watch-bg.png);
-    background-attachment:fixed;
-    background-repeat:no-repeat;
-    background-size:cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-position: center center;
-}*/
 
 body{
     color:#fcc729;

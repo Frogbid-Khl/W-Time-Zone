@@ -1,6 +1,6 @@
 @font-face {
     font-family: text-body;
-    src: url('../font/LoveNature.otf');
+    src: url('../font/LibraryRecordsRegular.otf');
 }
 
 
@@ -20,6 +20,7 @@ section.roadmap .box.left {
     padding: 40px;
     text-align: right;
     font-family: 'text-body';
+    color: #FFFFFF;
 }
 
 section.roadmap .box.right {
@@ -103,7 +104,8 @@ section.roadmap .dots.pull-left span {
 section.roadmap .vertical-line.right {
     border-right: 2px solid #fff0;
     margin-right: 0;
-    margin-top: 10px !important
+    margin-top: 10px !important;
+    color: #FFFFFF;
 }
 
 section.roadmap .vertical-line.left {
@@ -111,6 +113,7 @@ section.roadmap .vertical-line.left {
     margin-left: 0;
     margin-top: 10px !important;
     font-family: text-body !important;
+    color: #FFFFFF;
 
 }
 
