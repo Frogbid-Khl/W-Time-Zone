@@ -42,8 +42,8 @@ body:after{
 p{
     font-family: text-body !important;
     letter-spacing: 2px;
-    line-height: 45px;
-    font-size: 20px;
+    line-height: 25px;
+    font-size: 15px;
 }
 h1{
     font-family: Metabunny-Font !important;
@@ -68,7 +68,7 @@ strong{
     font-size: 20px;
 }
 .roadmap-text{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .header_custom_background {
@@ -225,7 +225,7 @@ strong{
 
 .content-header {
     font-family: 'Metabunny-Font';
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 3px;
     text-decoration: underline;
 }
@@ -305,7 +305,7 @@ strong{
 
 .custom-card-title{
     font-family: 'Metabunny-Font';
-    font-size: 35px;
+    font-size: 28px;
     letter-spacing: 5px;
 }
 
