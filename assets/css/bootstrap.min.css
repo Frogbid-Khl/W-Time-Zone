@@ -4465,7 +4465,13 @@ textarea.form-control-lg {
 }
 
 .card-text:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
+    text-align: left;
+}
+.card-text-1{
+    margin-bottom: 0;
+    text-align: center;
+
 }
 
 .card-link:hover {

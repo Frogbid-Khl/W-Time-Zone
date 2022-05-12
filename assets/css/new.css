@@ -1,6 +1,6 @@
 @font-face {
     font-family: text-body;
-    src: url('../font/LibraryRecordsRegular.otf');
+    src: url('../font/FivoSans-Regular.otf');
 }
 
 
@@ -182,5 +182,10 @@ section.roadmap .milestones span {
 
     section.roadmap .roadmap-line:after {
         background: #ccc !important
+    }
+}
+@media (max-width: 991px) {
+    section.roadmap span.heading{
+        font-size: 30px;
     }
 }

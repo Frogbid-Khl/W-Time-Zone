@@ -1,16 +1,16 @@
 @font-face {
     font-family: Metabunny-Font;
-    src: url('../font/LibraryRecordsRegular.otf');
+    src: url('../font/FivoSans-Bold.otf');
 }
 
 @font-face {
     font-family: Noto-Sans;
-    src: url('../font/LibraryRecordsRegular.otf');
+    src: url('../font/FivoSans-Bold.otf');
 }
 
 @font-face {
     font-family: text-body;
-    src: url('../font/LibraryRecordsRegular.otf');
+    src: url('../font/FivoSans-Regular.otf');
 }
 
 body{
@@ -41,8 +41,9 @@ body:after{
 
 p{
     font-family: text-body !important;
-    letter-spacing: 4px;
-    line-height: 35px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    font-size: 20px;
 }
 h1{
     font-family: Metabunny-Font !important;
@@ -64,6 +65,10 @@ strong{
 }
 .accordion-body{
     font-family: text-body !important;
+    font-size: 20px;
+}
+.roadmap-text{
+    font-size: 20px;
 }
 
 .header_custom_background {
@@ -89,7 +94,7 @@ strong{
 .header_custom_background .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
     font-family: Metabunny-Font, 'SansSerif';
     color: #000000;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .nav-item:hover {
@@ -300,7 +305,7 @@ strong{
 
 .custom-card-title{
     font-family: 'Metabunny-Font';
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 5px;
 }
 
@@ -388,6 +393,7 @@ h6{
 
 .accordion-button{
     color: #ffffff !important;
+    font-size: 20px;
 }
 
 .bg-warning{
@@ -417,19 +423,22 @@ h6{
         margin-top: 30px !important;
     }
     p{
-        font-size: 25px !important;
+        font-size: 30px !important;
+    }
+    .roadmap-text{
+        font-size: 30px;
     }
     .card-header{
         font-size: 30px;
     }
     .accordion-button{
-        font-size: 30px;
+        font-size: 35px;
     }
     .accordion-body{
-        font-size: 25px;
+        font-size: 30px;
     }
     h3{
-        font-size: 30px;
+        font-size: 40px;
     }
     .navbar-nav .nav-link{
         font-size: 40px;
@@ -448,6 +457,12 @@ h6{
     }
     #header_logo{
         width:250px;
+    }
+    #third-image{
+        margin-top: 35px;
+    }
+    .content-header{
+        font-size: 55px;
     }
 }
 
