@@ -66,6 +66,7 @@ strong{
 .accordion-body{
     font-family: text-body !important;
     font-size: 20px;
+    background-image: linear-gradient(to right, #0d407c , #047af3);
 }
 .roadmap-text{
     font-size: 15px;
@@ -93,7 +94,7 @@ strong{
 
 .header_custom_background .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
     font-family: Metabunny-Font, 'SansSerif';
-    color: #000000;
+    color: #ffffff;
     letter-spacing: 2px;
 }
 
@@ -156,7 +157,7 @@ strong{
     border-radius: 10px;
     text-transform: uppercase;
     background-image:linear-gradient(to right,#0d6efd,#1663be,#1357a6);
-    box-shadow: 0 8px 0 #0d6efd, 0 10px 15px rgb(0 0 0 / 35%);
+    /*box-shadow: 0 8px 0 #0d6efd, 0 10px 15px rgb(0 0 0 / 35%);*/
 }
 
 .connect-button:hover {
@@ -424,7 +425,7 @@ h6{
     }
     p{
         font-size: 30px !important;
-        line-height: 35px;
+        line-height: 45px;
     }
     .roadmap-text{
         font-size: 30px;

@@ -1,7 +1,19 @@
 @font-face {
+    font-family: Metabunny-Font;
+    src: url('../font/FivoSans-Bold.otf');
+}
+
+@font-face {
+    font-family: Noto-Sans;
+    src: url('../font/FivoSans-Bold.otf');
+}
+
+@font-face {
     font-family: text-body;
     src: url('../font/FivoSans-Regular.otf');
 }
+
+
 
 
 .box {
@@ -17,14 +29,13 @@
 }
 
 section.roadmap .box.left {
-    padding: 40px;
-    text-align: right;
-    font-family: 'text-body';
-    color: #FFFFFF;
+    padding-right: 40px;
+    text-align: right
 }
 
 section.roadmap .box.right {
-    padding: 40px;
+    padding-left: 40px;
+    margin-top: 190px;
 }
 
 section.roadmap span.heading div {
@@ -34,12 +45,45 @@ section.roadmap span.heading div {
 /*Responsive test*/
 @media (max-width: 991px) {
     section.roadmap .box {
-        margin-top: 30px
+        margin-top: 30px !important;
+    }
+    #line{
+        margin-top: 0 !important;
+    }
+    #line2{
+        margin-top: 0 !important;
     }
 }
 
 @media (min-width: 992px) {
+    section.roadmap .box.left:after {
+        content: 'after';
+        width: 50px;
+        height: 5px;
+        background: rgba(0, 0, 0, 0.01);
+        position: absolute;
+        top: 32%;
+        right: 387px;
+        color: rgba(0, 0, 0, 0);
+        text-align: center;
+        z-index: 1;
+    }/*
+    section.roadmap .box.right{
+        margin-top: 0;
+    }*/
 
+    section.roadmap .box.right:after {
+        content: 'after';
+        width: 70px;
+        height: 3px;
+        background: #ccc0;
+        position: absolute;
+        top: 50%;
+        left: -70px;
+        color: #ccc0;
+        text-align: center;
+        z-index: 1
+    }
 }
 
 @media (min-width: 992px) {
@@ -48,7 +92,7 @@ section.roadmap span.heading div {
     }
 
     section.roadmap .box.right.second {
-        margin-top: 50px !important
+        top: 45px !important
     }
 
     section.roadmap .box.right.third {
@@ -56,7 +100,8 @@ section.roadmap span.heading div {
     }
 
     section.roadmap .box.left.second {
-        top: -65px !important
+        top: -65px !important;
+        margin-top: 77px;
     }
 
     section.roadmap .box.left.third {
@@ -69,14 +114,13 @@ section.roadmap span.heading div {
 }
 
 section.roadmap span.heading {
+    font-family: Noto-Sans !important;
     font-size: 20px;
     top: -4px
 }
 
 section.roadmap .green {
-    color: #09d8ba;
-    font-weight: bold;
-    font-family: text-body !important;
+    color: #fcc729
 }
 
 section.roadmap .dots {
@@ -102,19 +146,21 @@ section.roadmap .dots.pull-left span {
 }
 
 section.roadmap .vertical-line.right {
-    border-right: 2px solid #fff0;
+    border-right: 2px solid #fcc729;
     margin-right: 0;
+    padding-right: 20px;
     margin-top: 10px !important;
     color: #FFFFFF;
+    font-family: text-body;
 }
 
 section.roadmap .vertical-line.left {
-    border-left: 2px solid #fff0;
+    border-left: 2px solid #fcc729;
     margin-left: 0;
+    padding-left: 20px;
     margin-top: 10px !important;
-    font-family: text-body !important;
-    color: #FFFFFF;
-
+    color: #ffffff;
+    font-family: text-body;
 }
 
 section.roadmap .row.left, section.roadmap .row.right {
@@ -122,6 +168,7 @@ section.roadmap .row.left, section.roadmap .row.right {
 }
 
 section.roadmap .milestones span {
+    font-family: Arial, Helvetica !important;
 }
 
 @media (min-width: 992px) {
@@ -147,7 +194,7 @@ section.roadmap .milestones span {
     }
 
     section.roadmap .roadmap-line {
-        background: #ccc;
+        background: #fcc729;
         width: 7px;
         height: 70px;
         position: relative;
@@ -173,19 +220,14 @@ section.roadmap .milestones span {
     }
 
     section.roadmap .roadmap-line.active {
-        background: #0be6d0 !important
+        background: #fcc729 !important
     }
 
     section.roadmap .roadmap-line.active:after {
-        background: #0be6d0 !important
+        background: #fcc729 !important
     }
 
     section.roadmap .roadmap-line:after {
-        background: #ccc !important
-    }
-}
-@media (max-width: 991px) {
-    section.roadmap span.heading{
-        font-size: 30px;
+        background: #fcc729 !important
     }
 }
