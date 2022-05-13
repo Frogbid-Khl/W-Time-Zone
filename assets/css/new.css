@@ -170,7 +170,11 @@ section.roadmap .row.left, section.roadmap .row.right {
 section.roadmap .milestones span {
     font-family: Arial, Helvetica !important;
 }
-
+@media (max-width: 992px){
+    section.roadmap span.heading{
+        font-size: 40px;
+    }
+}
 @media (min-width: 992px) {
     section.roadmap .lines {
         position: absolute;

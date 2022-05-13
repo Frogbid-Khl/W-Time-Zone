@@ -65,7 +65,7 @@ strong{
 }
 .accordion-body{
     font-family: text-body !important;
-    font-size: 20px;
+    font-size: 15px;
     background-image: linear-gradient(to right, #0d407c , #047af3);
 }
 .roadmap-text{
@@ -87,7 +87,7 @@ strong{
     max-width: 100%;
     padding: 25px 0;
     display: flex;
-    width: 1440px;
+    /*width: 1440px;*/
     justify-content: space-between;
     align-items: center;
 }
@@ -394,7 +394,7 @@ h6{
 
 .accordion-button{
     color: #ffffff !important;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .bg-warning{
