@@ -122,8 +122,7 @@ body {
   position: absolute;
   left: 1.85em;
   top: 1.32em;
-  width: 17.2em;
-  height: 6.81em;
+  height: 4.81em;
 }
 
 .image {
@@ -1109,8 +1108,8 @@ body {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  width: 22.69em;
-  height: 22.88em;
+  width: 21.69em;
+  padding: 15px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -3027,7 +3026,7 @@ footer img {
 }
 
 #main-section{
-  background-image:url('../images/w-bg3.png');
+  background-image:url('../images/w-bg-big.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:bottom;
